@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineArrowDown } from 'react-icons/ai';
-
+import resume from '../file/Web Dev-Anik dev-Resume.pdf';
 const Header = () => {
     const menuItems = <>
         <li className="mx-2"><a href='/'>HOME</a></li>
@@ -36,7 +36,7 @@ const Header = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a href='../file/Web Dev-Anik dev-Resume.pdf' download class="btn btn-outline rounded-full px-10">Resume <AiOutlineArrowDown className="text-xl ml-2"></AiOutlineArrowDown></a>
+                <a href={resume} download='Anik_dev.pdf' class="btn btn-outline rounded-full px-10">Resume <AiOutlineArrowDown className="text-xl ml-2"></AiOutlineArrowDown></a>
             </div>
         </div>
     );
