@@ -3,9 +3,9 @@ import React from 'react';
 const Header = () => {
     const menuItems = <>
         <li className="mx-2"><a>HOME</a></li>
-        <li className="mx-2"><a>PROJECTS</a></li>
-        <li className="mx-2"><a>ABOUT</a></li>
-        <li className="mx-2"><a>CONTACT</a></li>
+        <li className="mx-2"><a href='#projects'>PROJECTS</a></li>
+        <li className="mx-2"><a href='#services'>SERVICES</a></li>
+        <li className="mx-2"><a href='#contact'>CONTACT</a></li>
     </>
     return (
         <div class="navbar bg-[#252734] md:px-16">

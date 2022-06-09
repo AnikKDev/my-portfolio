@@ -1,0 +1,8 @@
+.service-box {
+    transition: .8s;
+}
+
+.service-box:hover {
+    transform: scale3d(1.01, 1.01, 1.01);
+    box-shadow: #00000047 0px 2px 28px 4px;
+}
