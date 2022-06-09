@@ -12,7 +12,7 @@ const Banner = () => {
                     <p className="mt-5">
                         Web Developer | Content Writer | Student
                     </p>
-                    <button className="rounded-full btn-outline border-2 my-16 capitalize hire-me-btn">Hire Me</button>
+                    <a href='#contact' ><button className="rounded-full btn-outline border-2 my-16 capitalize hire-me-btn">Hire Me</button></a>
                 </div>
                 <div>
                     <img src={circleBg} className="absolute mt-24" alt="" />

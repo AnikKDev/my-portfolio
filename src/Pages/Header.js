@@ -1,8 +1,9 @@
 import React from 'react';
+import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const Header = () => {
     const menuItems = <>
-        <li className="mx-2"><a>HOME</a></li>
+        <li className="mx-2"><a href='/'>HOME</a></li>
         <li className="mx-2"><a href='#projects'>PROJECTS</a></li>
         <li className="mx-2"><a href='#services'>SERVICES</a></li>
         <li className="mx-2"><a href='#contact'>CONTACT</a></li>
@@ -35,7 +36,7 @@ const Header = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn btn-outline rounded-full px-10">Resume</a>
+                <a href='../file/Web Dev-Anik dev-Resume.pdf' download class="btn btn-outline rounded-full px-10">Resume <AiOutlineArrowDown className="text-xl ml-2"></AiOutlineArrowDown></a>
             </div>
         </div>
     );

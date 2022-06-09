@@ -15,26 +15,26 @@ const HireMe = () => {
     };
     return (
         <div className="my-20">
-            <h1 className="text-4xl text-secondary">Send Query</h1>
-            <form ref={form} onSubmit={sendEmail} class="card-body mx-auto">
-                <div class="form-control items-center">
+            <h1 className="text-4xl mb-20 text-secondary">Send Query</h1>
+            <form ref={form} onSubmit={sendEmail} class="card-body p-0">
+                <div class="form-control items-center lg:items-start">
                     <label class="label">
                     </label>
                     <input type="text" placeholder="Name" class="input input-bordered w-full max-w-md text-xl" name="user_name" />
                 </div>
-                <div class="form-control items-center">
+                <div class="form-control items-center lg:items-start">
                     <label class="label">
                     </label>
                     <input required type="email" placeholder="Email" class="input input-bordered w-full max-w-md text-xl" name="user_email" />
                 </div>
-                <div class="form-control items-center">
+                <div class="form-control items-center lg:items-start">
                     <label class="label">
                     </label>
                     <textarea placeholder="Message" class="input input-bordered w-full max-w-md text-xl" name="message" />
                     <label class="label">
                     </label>
                 </div>
-                <div class="form-control items-center mt-6">
+                <div class="form-control items-center lg:items-start mt-6">
                     <button type="submit" class="btn btn-primary w-full max-w-md">Send</button>
                 </div>
             </form>
