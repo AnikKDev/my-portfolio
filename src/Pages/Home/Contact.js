@@ -16,14 +16,27 @@ const Contact = () => {
     return (
         <div>
             <h1 className="text-4xl text-secondary">Contact Me</h1>
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+            <form ref={form} onSubmit={sendEmail} class="card-body mx-auto">
+                <div class="form-control items-center">
+                    <label class="label">
+                    </label>
+                    <input type="text" placeholder="Name" class="input input-bordered w-full max-w-md" name="user_name" />
+                </div>
+                <div class="form-control items-center">
+                    <label class="label">
+                    </label>
+                    <input required type="email" placeholder="Email" class="input input-bordered w-full max-w-md" name="user_email" />
+                </div>
+                <div class="form-control items-center">
+                    <label class="label">
+                    </label>
+                    <textarea placeholder="Message" class="input input-bordered w-full max-w-md" name="message" />
+                    <label class="label">
+                    </label>
+                </div>
+                <div class="form-control mt-6">
+                    <button type="submit" class="btn btn-primary w-full max-w-md">Send</button>
+                </div>
             </form>
         </div>
     );
