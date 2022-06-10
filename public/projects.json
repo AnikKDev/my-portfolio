@@ -9,10 +9,7 @@
             "daisyUi",
             "FlowBite",
             "MongoDB",
-            "ReactIcons",
-            "React form hook",
-            "React firebase hook",
-            "React responsive carousel etc"
+            "ReactIcons"
         ],
         "client": "https://github.com/AnikKDev/my-carpentry",
         "server": "https://github.com/AnikKDev/my-carpentry-server",
@@ -25,40 +22,57 @@
     {
         "id": 2,
         "name": "Laptop Mania",
-        "details": "",
-        "tools": "",
-        "client": "",
-        "server": "",
-        "live": "",
+        "details": "In this project you can update item quantity. You can create an account either with email or google account and after logged in more functionality like, my items, manage items etc will be visible on header section",
+        "tools": [
+            "google firebase",
+            "react router",
+            "react bootstrap",
+            "node js",
+            "MongoDB",
+            "ReactIcons"
+        ],
+        "client": "https://github.com/AnikKDev/laptop-mania",
+        "server": "https://github.com/AnikKDev/laptop-mania-server",
+        "live": "https://laptop-mania-client-side.web.app/",
         "thumb": "",
-        "ss1": "",
-        "ss2": "",
-        "ss3": ""
+        "ss1": "https://i.ibb.co/Fwp3x8G/ss1.png",
+        "ss2": "https://i.ibb.co/tcY23DF/ss2.png",
+        "ss3": "https://i.ibb.co/Fgz9rsq/ss3.png"
     },
     {
         "id": 3,
         "name": "Pixieco",
-        "details": "",
-        "tools": "",
-        "client": "",
+        "details": "user can SignUp/Signin with google and github. Without signing in user can not access all the services of this site. This is a Single Page Application. And...Responsive for mobile and laptop",
+        "tools": [
+            "React",
+            "React bootstrap",
+            "Google firebase(react firebase hooks)",
+            "React toastify",
+            "ReactIcons"
+        ],
+        "client": "https://github.com/AnikKDev/pixieco",
         "server": "",
-        "live": "",
+        "live": "https://pixieco-react.web.app/",
         "thumb": "",
-        "ss1": "",
-        "ss2": "",
-        "ss3": ""
+        "ss1": "https://i.ibb.co/Cn5CnZy/ss1.png",
+        "ss2": "https://i.ibb.co/JB1HQg1/ss2.png",
+        "ss3": "https://i.ibb.co/mGSJDhp/ss3.png"
     },
     {
         "id": 4,
         "name": "Proxima Inc.",
-        "details": "",
-        "tools": "",
-        "client": "",
+        "details": "This site have home route with customer reviews. Have 404 error route for not existing route. Used Rechart to show annual and monthly revenue. Responsive for mobile and laptop",
+        "tools": [
+            "React router",
+            "Bootstrap",
+            "Rechart"
+        ],
+        "client": "https://github.com/AnikKDev/proxima-inc",
         "server": "",
-        "live": "",
+        "live": "https://rad-cobbler-4cf684.netlify.app/",
         "thumb": "",
-        "ss1": "",
-        "ss2": "",
-        "ss3": ""
+        "ss1": "https://i.ibb.co/CwFHYjh/ss1.png",
+        "ss2": "https://i.ibb.co/bmNsnSn/ss2.png",
+        "ss3": "https://i.ibb.co/zJ8Sjkg/ss3.png"
     }
 ]
