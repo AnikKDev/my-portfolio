@@ -25,7 +25,7 @@ const Project = () => {
             })
     }, [id])
     return (
-        <div className="sm:px-16 lg:px-28">
+        <div className="sm:px-16 lg:px-28 mt-16">
             <Swiper
                 // className="w-3/4"
                 modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
@@ -62,7 +62,7 @@ const Project = () => {
                 <p>{details}</p>
             </div>
             <div>
-                <h5 className="font-semibold text-lg">TOOLS:</h5>
+                <h5 className="font-semibold text-lg my-5">TOOLS:</h5>
                 {
                     tools?.map(tool => <span className="mx-2 border-2 px-3 py-1 rounded-md border-gray-400">{tool}</span>)
                 }
