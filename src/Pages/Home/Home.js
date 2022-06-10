@@ -8,7 +8,7 @@ import Services from './Services';
 
 const Home = () => {
     return (
-        <div className="md:px-24">
+        <div className="lg:px-24 overflow-x-hidden">
             <Header></Header>
             <Banner />
             <About></About>

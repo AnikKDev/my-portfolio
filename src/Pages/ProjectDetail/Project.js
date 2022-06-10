@@ -63,9 +63,11 @@ const Project = () => {
             </div>
             <div>
                 <h5 className="font-semibold text-lg my-5">TOOLS:</h5>
-                {
-                    tools?.map(tool => <span className="mx-2 border-2 px-3 py-1 rounded-md border-gray-400">{tool}</span>)
-                }
+                <div className="flex flex-wrap">
+                    {
+                        tools?.map(tool => <span className="mx-2 border-2 px-3 py-1 my-4  rounded-md border-gray-400">{tool}</span>)
+                    }
+                </div>
             </div>
         </div>
     );
