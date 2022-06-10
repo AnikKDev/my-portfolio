@@ -1,9 +1,10 @@
 import React from 'react';
 import { AiOutlineArrowDown } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 import resume from '../file/Web Dev-Anik dev-Resume.pdf';
 const Header = () => {
     const menuItems = <>
-        <li className="mx-2"><a href='/'>HOME</a></li>
+        <li className="mx-2"><Link to='/'>HOME</Link></li>
         <li className="mx-2"><a href='#projects'>PROJECTS</a></li>
         <li className="mx-2"><a href='#services'>SERVICES</a></li>
         <li className="mx-2"><a href='#contact'>CONTACT</a></li>

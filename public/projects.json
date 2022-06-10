@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "MyCarpentry",
+        "details": "This is a carpentry tool manufacurer website. in here you can create account. Add product to your order list , you can continue pay for them or you can delete them. Butafter payment you can not delete the product from your order list. If you are an admin, you can make a user admin. You can see how many products the users placed. And evenyou can see both user and products list. you can remove an unpaid item as your will.You can add a new item too.",
+        "tools": [
+            "React router",
+            "Tailwindcss",
+            "daisyUi",
+            "FlowBite",
+            "MongoDB",
+            "ReactIcons",
+            "React form hook",
+            "React firebase hook",
+            "React responsive carousel etc"
+        ],
+        "client": "https://github.com/AnikKDev/my-carpentry",
+        "server": "https://github.com/AnikKDev/my-carpentry-server",
+        "live": "https://tool-manufacture-client.web.app/",
+        "thumb": "",
+        "ss1": "",
+        "ss2": "",
+        "ss3": ""
+    },
+    {
+        "id": 2,
+        "name": "Laptop Mania",
+        "details": "",
+        "tools": "",
+        "client": "",
+        "server": "",
+        "live": "",
+        "thumb": "",
+        "ss1": "",
+        "ss2": "",
+        "ss3": ""
+    },
+    {
+        "id": 3,
+        "name": "Pixieco",
+        "details": "",
+        "tools": "",
+        "client": "",
+        "server": "",
+        "live": "",
+        "thumb": "",
+        "ss1": "",
+        "ss2": "",
+        "ss3": ""
+    },
+    {
+        "id": 4,
+        "name": "Proxima Inc.",
+        "details": "",
+        "tools": "",
+        "client": "",
+        "server": "",
+        "live": "",
+        "thumb": "",
+        "ss1": "",
+        "ss2": "",
+        "ss3": ""
+    }
+]
