@@ -1,0 +1,4 @@
+.resume-link:hover .resume-down-arrow {
+  transition: transform 0.3s;
+  transform: translateY(5px);
+}
